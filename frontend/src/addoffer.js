@@ -1,5 +1,5 @@
 // Media Used
-import Preview from './Dev Media/Layer1.png';
+import Preview from './Dev_Media/Layer1.png';
 
 // Shopify polaris
 import {
