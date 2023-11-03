@@ -12,6 +12,7 @@ import en from '@shopify/polaris/locales/en.json';
 import UserGuide from './userguide';
 import AddOffer from './addoffer';
 import OfferSetup from './offersetup';
+import EditFBT from './editfbt';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -24,6 +25,7 @@ root.render(
             <Route path="/userguide" element={<UserGuide />}></Route>
             <Route path="/addoffer" element={<AddOffer />}></Route>
             <Route path="/offersetup" element={<OfferSetup />}></Route>
+            <Route path="/editfbt" element={<EditFBT />}></Route>
           </Routes>
         </BrowserRouter>
       </Frame>

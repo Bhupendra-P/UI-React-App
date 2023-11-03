@@ -49,7 +49,7 @@ function Settings() {
                                         Frequently Baught Together
                                     </Text>
                                     <InlineStack align='end' gap="400">
-                                        <Link removeUnderline url='#'>Edit Widgets</Link>
+                                        <Link removeUnderline url='/editfbt'>Edit Widgets</Link>
                                         <Button variant="primary" tone="success">Enable</Button>
                                     </InlineStack>
                                 </InlineStack>
