@@ -78,7 +78,7 @@ function Settings() {
                                         Cart Add-Ons
                                     </Text>
                                     <InlineStack align='end' gap="400">
-                                        <Link removeUnderline url='#'>Edit Widgets</Link>
+                                        <Link removeUnderline url='/cartaddon'>Edit Widgets</Link>
                                         <Button variant="primary" tone="success">Enable</Button>
                                     </InlineStack>
                                 </InlineStack>
