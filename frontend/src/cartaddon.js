@@ -5,10 +5,10 @@ import {
     Page,
     Banner,
     Text,
-    // Link,
     Card,
     TextField,
-    UnstyledLink
+    UnstyledLink,
+    Link
 } from '@shopify/polaris';
 
 function CartAddOn() {
@@ -125,9 +125,9 @@ function CartAddOn() {
                         </Card>
                         {/* No space availabe at the bottom. So, additional blank Div is used. */}
                         <div style={{ height: '50px' }}></div>
-
                     </Layout.Section>
                 </Layout>
+                <Link url="#">Skeleton Pages</Link>
             </BlockStack>
         </Page>
     );
