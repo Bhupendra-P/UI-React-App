@@ -8,7 +8,7 @@ function UserGuide() {
             primaryAction={{ content: 'Save' }}
         >
             <Card title="Credit card">
-                <p>Credit card information</p>
+                <p>UserGuide Alag se banega ..isme nahi</p>
             </Card>
         </Page>
     );
