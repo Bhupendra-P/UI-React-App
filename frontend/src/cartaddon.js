@@ -119,7 +119,7 @@ function CartAddOn() {
                                     autoComplete="off"
                                 />
                                 <Text variant="bodyMd" tone="subdued">
-                                    The countdown time will be displayed only when there is a discount
+                                    The countdown time will be displayed only when there is a discount.
                                 </Text>
                             </BlockStack>
                         </Card>
