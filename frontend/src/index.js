@@ -14,6 +14,7 @@ import AddOffer from './addoffer';
 import OfferSetup from './offersetup';
 import EditFBT from './editfbt';
 import CartAddOn from './cartaddon';
+import Skeletons from './skeletons';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -28,6 +29,7 @@ root.render(
             <Route path="/offersetup" element={<OfferSetup />}></Route>
             <Route path="/editfbt" element={<EditFBT />}></Route>
             <Route path="/cartaddon" element={<CartAddOn />}></Route>
+            <Route path='/skeletons' element={<Skeletons />}></Route>
           </Routes>
         </BrowserRouter>
       </Frame>

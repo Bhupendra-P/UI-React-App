@@ -127,7 +127,7 @@ function CartAddOn() {
                         <div style={{ height: '50px' }}></div>
                     </Layout.Section>
                 </Layout>
-                <Link url="#">Skeleton Pages</Link>
+                <Link removeUnderline url='/skeletons'>Edit Widgets</Link>
             </BlockStack>
         </Page>
     );
