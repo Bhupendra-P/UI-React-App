@@ -4,8 +4,8 @@ import {
     Layout,
     Card,
     SkeletonBodyText,
-    InlineStack,
-    SkeletonDisplayText
+    SkeletonDisplayText,
+    TextContainer
 } from '@shopify/polaris';
 
 function SkOffers() {
@@ -31,9 +31,17 @@ function SkOffers() {
                 <Layout>
                     <Layout.Section variant="fullWidth">
                         <Card>
-                            <InlineStack align="space-evenly" blockAlign="center" gap="400" >
-                                <SkeletonDisplayText size="extraLarge" maxWidth="50%" />
-                            </InlineStack>
+                            <TextContainer>
+                                <SkeletonDisplayText size="small" />
+                                <SkeletonBodyText lines={2} />
+                            </TextContainer>
+                        </Card>
+                    </Layout.Section>
+                </Layout>
+                <Layout>
+                    <Layout.Section variant="fullWidth">
+                        <Card>
+                            <SkeletonBodyText lines={14} />
 
                         </Card>
                     </Layout.Section>
