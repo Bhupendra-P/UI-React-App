@@ -46,7 +46,7 @@ function AddOffer() {
                             <div style={{ height: '25px' }}> </div>
                         </Card>
                         <InlineStack align="end">
-                            <Button variant="primary" size="large" tone="success" url="/offersetup"> Proceed To Setup Offer</Button>
+                            <Button variant="primary" size="large" tone="success" url="/offersetup">Proceed To Setup Offer</Button>
                         </InlineStack>
                         <div style={{ height: '25px' }}> </div>
                     </BlockStack>

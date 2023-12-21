@@ -6,7 +6,6 @@ import {
     SkeletonBodyText,
     SkeletonDisplayText,
     TextContainer,
-    Spinner,
     Box,
     Text,
     InlineStack
