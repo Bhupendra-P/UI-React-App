@@ -1,4 +1,10 @@
-import { Page, Card, Layout, Link, BlockStack } from '@shopify/polaris';
+import {
+    Page,
+    Card,
+    Layout,
+    Link,
+    BlockStack
+} from '@shopify/polaris';
 
 function Skeletons() {
     return (
@@ -13,9 +19,11 @@ function Skeletons() {
                         <BlockStack gap="200">
                             <Link removeUnderline url='/sk_offers'>Offers</Link>
                             <Link removeUnderline url='/sk_addoffers'>Add Offer</Link>
-                            <Link removeUnderline url='/skeletons'>Offer Setup</Link>
-                            <Link removeUnderline url='/skeletons'></Link>
-                            <Link removeUnderline url='/skeletons'>Edit Widgets</Link>
+                            <Link removeUnderline url='/sk_offersetup'>Offer Setup</Link>
+                            <Link removeUnderline url='/skeletons'>help</Link>
+                            <Link removeUnderline url='/skeletons'>EditFBT</Link>
+                            <Link removeUnderline url='/skeletons'>CartAddOn</Link>
+                            <Link removeUnderline url='/skeletons'>Settings</Link>
                         </BlockStack>
                     </Card>
                 </Layout.Section>

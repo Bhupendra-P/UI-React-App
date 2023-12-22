@@ -17,6 +17,7 @@ import CartAddOn from './cartaddon';
 import Skeletons from './skeletons';
 import SkOffers from './sk_offfers';
 import SkAddOffers from './sk_addoffers';
+import SkOfferSetup from './sk_offersetup';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -34,7 +35,7 @@ root.render(
             <Route path='/skeletons' element={<Skeletons />}></Route>
             <Route path='/sk_offers' element={<SkOffers />}></Route>
             <Route path='/sk_addoffers' element={<SkAddOffers />}></Route>
-
+            <Route path='/sk_offersetup' element={<SkOfferSetup />}></Route>
           </Routes>
         </BrowserRouter>
       </Frame>
