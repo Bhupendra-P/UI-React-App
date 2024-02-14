@@ -7,8 +7,7 @@ import {
     Text,
     Card,
     TextField,
-    UnstyledLink,
-    Link
+    UnstyledLink
 } from '@shopify/polaris';
 
 function CartAddOn() {
@@ -127,7 +126,6 @@ function CartAddOn() {
                         <div style={{ height: '50px' }}></div>
                     </Layout.Section>
                 </Layout>
-                <Link removeUnderline url='/skeletons'>Skeletons Pages</Link>
             </BlockStack>
         </Page>
     );
