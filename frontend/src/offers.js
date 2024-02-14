@@ -11,7 +11,7 @@ import {
     Box,
     Divider,
     Button,
-    Link
+    Link,
 } from '@shopify/polaris';
 
 
@@ -202,7 +202,7 @@ function Offers() {
                     </BlockStack>
                 </Card>
             </BlockStack>
-            <div style={{ height: '30px' }}></div>
+            <div style={{ height: '30px', backgroundColor: 'red' }}></div>
         </>
     );
 };
