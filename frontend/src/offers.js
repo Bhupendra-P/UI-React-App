@@ -29,7 +29,7 @@ function Offers() {
                         tone="info"
                         onDismiss={() => { }}
                     >
-                        <BlockStack gap="300">
+                        <BlockStack gap="200">
                             <p>1. Create a new upsell offer by clicking <b>Add Offer</b> button.</p>
                             <p>2. The upsell widget’s text and style can be customized from the Settings page.</p>
                             <p>3. To view the upsell widget, visit the trigger product’s page and checkout.</p>
@@ -50,14 +50,12 @@ function Offers() {
                         description={`Let's setup your upsell offer in just 3 easy steps.`}
                         popoverActions={[{ content: 'Dismiss', onAction: () => { } }]}
                     >
-                        <div style={{ maxHeight: '156px', minHeight: '156px' }}>
-                            <VideoThumbnail
-                                videoLength={80}
-                                thumbnailUrl="https://burst.shopifycdn.com/photos/business-woman-smiling-in-office.jpg?width=1720"
-                                onClick={() => console.log('clicked')}
-                            />
-                        </div>
 
+                        <VideoThumbnail
+                            videoLength={80}
+                            thumbnailUrl="https://burst.shopifycdn.com/photos/business-woman-smiling-in-office.jpg?width=240"
+                            onClick={() => console.log('clicked')}
+                        />
                     </MediaCard>
                 </Layout.Section>
             </Layout>
