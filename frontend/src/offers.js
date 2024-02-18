@@ -38,7 +38,7 @@ function Offers() {
                 </Layout.Section>
                 <Layout.Section variant="oneHalf">
                     <MediaCard
-                        title="Setup upsell offer with this app in just 2 minutes"
+                        title="Setup upsell offer with ABC Upsell app in just 2 minutes"
                         primaryAction={{
                             content: 'Watch Now',
                             onAction: () => { },
@@ -52,11 +52,14 @@ function Offers() {
 
                         style={{ height: '100%', flex: '1', maxWidth: '100%' }}
                     >
-                        <VideoThumbnail
-                            videoLength={80}
-                            thumbnailUrl="https://burst.shopifycdn.com/photos/business-woman-smiling-in-office.jpg?width=1850"
-                            onClick={() => console.log('clicked')}
-                        />
+                        <div style={{ maxHeight: '140' }}>
+                            <VideoThumbnail
+                                videoLength={80}
+                                thumbnailUrl="https://burst.shopifycdn.com/photos/business-woman-smiling-in-office.jpg?width=640"
+                                onClick={() => console.log('clicked')}
+                            />
+                        </div>
+
                     </MediaCard>
                 </Layout.Section>
             </Layout>
