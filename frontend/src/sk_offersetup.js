@@ -1,17 +1,16 @@
 import { Page, Card } from '@shopify/polaris';
+import SKCard from './skeletoncard';
 
 function SkOfferSetup() {
     return (
         <Page fullWidth
             backAction={{ content: 'Settings', url: '#' }}
-            title="General"
+            title="Offer Setup"
             primaryAction={{ content: 'Save' }}
         >
-            <Card title="Credit card">
-                <p>UserGuide Alag se banega ..isme nahi</p>
-            </Card>
+            <SKCard width={300} height={200}>
+            </SKCard>
         </Page>
     );
 }
-
 export default SkOfferSetup;
