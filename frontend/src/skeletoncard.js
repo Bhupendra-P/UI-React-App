@@ -6,7 +6,7 @@ const SKCard = ({ width, height }) => {
         width: `${width}px`,
         height: `${height}px`,
         backgroundColor: '#e4e4e4',
-        padding: '5px',
+        padding: '4px',
         borderRadius: '8px'
     };
 
