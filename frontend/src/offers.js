@@ -1,3 +1,4 @@
+// React
 //From Shopify-Polaris
 import {
     Layout,
@@ -27,6 +28,7 @@ function Offers() {
                         // secondaryAction={{ content: 'Learn more' }}
                         tone="info"
                         onDismiss={() => { }}
+                        style={{ height: '100%', flex: '1' }}
                     >
                         <BlockStack gap="150">
                             <p>1. Create a new upsell offer by clicking <b>Add Offer</b> button.</p>
@@ -48,6 +50,8 @@ function Offers() {
                         }}
                         description={`Let's setup your upsell offer in just 3 easy steps.`}
                         popoverActions={[{ content: 'Dismiss', onAction: () => { } }]}
+
+                        style={{ height: '100%', flex: '1', maxWidth: '100%' }}
                     >
                         <VideoThumbnail
                             videoLength={80}
@@ -202,7 +206,7 @@ function Offers() {
                     </BlockStack>
                 </Card>
             </BlockStack>
-            <div style={{ height: '30px', backgroundColor: 'red' }}></div>
+            <div style={{ height: '30px' }}></div>
         </>
     );
 };
