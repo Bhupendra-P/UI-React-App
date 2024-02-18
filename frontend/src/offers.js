@@ -28,7 +28,6 @@ function Offers() {
                         // secondaryAction={{ content: 'Learn more' }}
                         tone="info"
                         onDismiss={() => { }}
-                        style={{ height: '100%', flex: '1' }}
                     >
                         <BlockStack gap="150">
                             <p>1. Create a new upsell offer by clicking <b>Add Offer</b> button.</p>
