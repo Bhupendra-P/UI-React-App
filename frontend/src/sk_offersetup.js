@@ -6,7 +6,7 @@ function SkOfferSetup() {
         <Page fullWidth
             backAction={{ content: 'Settings', url: '#' }}
             title="Offer Setup"
-            primaryAction={{ content: 'Save' }}
+            primaryAction={{ content: 'Save', variant: "primary", tone: "success" }}
         >
             <BlockStack gap="1000">
                 <Layout>
