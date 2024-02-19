@@ -18,6 +18,7 @@ import Skeletons from './skeletons';
 import SkOffers from './sk_offfers';
 import SkAddOffers from './sk_addoffers';
 import SkOfferSetup from './sk_offersetup';
+import SkHelp from './sk_help';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -36,6 +37,8 @@ root.render(
             <Route path='/sk_offers' element={<SkOffers />}></Route>
             <Route path='/sk_addoffers' element={<SkAddOffers />}></Route>
             <Route path='/sk_offersetup' element={<SkOfferSetup />}></Route>
+            <Route path='/sk_help' element={<SkHelp />}></Route>
+            <Route path='/sk_editfbt' element={<SkEditFBT />}></Route>
           </Routes>
         </BrowserRouter>
       </Frame>
