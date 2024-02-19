@@ -22,7 +22,7 @@ function Skeletons() {
                             <Link removeUnderline url='/sk_offersetup'>Offer Setup</Link>
                             <Link removeUnderline url='/sk_help'>help</Link>
                             <Link removeUnderline url='/sk_editfbt'>EditFBT</Link>
-                            <Link removeUnderline url='/skeletons'>CartAddOn</Link>
+                            <Link removeUnderline url='/sk_cartaddon'>CartAddOn</Link>
                             <Link removeUnderline url='/skeletons'>Settings</Link>
                         </BlockStack>
                     </Card>

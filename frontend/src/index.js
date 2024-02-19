@@ -20,6 +20,7 @@ import SkAddOffers from './sk_addoffers';
 import SkOfferSetup from './sk_offersetup';
 import SkHelp from './sk_help';
 import SkEditFBT from './sk_editfbt';
+import SkCartAddOn from './sk_cartaddon';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -40,6 +41,7 @@ root.render(
             <Route path='/sk_offersetup' element={<SkOfferSetup />}></Route>
             <Route path='/sk_help' element={<SkHelp />}></Route>
             <Route path='/sk_editfbt' element={<SkEditFBT />}></Route>
+            <Route path='/sk_cartaddon' element={<SkCartAddOn />}></Route>
           </Routes>
         </BrowserRouter>
       </Frame>
