@@ -23,7 +23,7 @@ function Skeletons() {
                             <Link removeUnderline url='/sk_help'>help</Link>
                             <Link removeUnderline url='/sk_editfbt'>EditFBT</Link>
                             <Link removeUnderline url='/sk_cartaddon'>CartAddOn</Link>
-                            <Link removeUnderline url='/skeletons'>Settings</Link>
+                            <Link removeUnderline url='/sk_settings'>Settings</Link>
                         </BlockStack>
                     </Card>
                 </Layout.Section>
