@@ -3,8 +3,6 @@ import {
     Layout,
     BlockStack,
     Card,
-    Text,
-    InlineStack
 } from '@shopify/polaris';
 import SKCard from './skeletoncard';
 
