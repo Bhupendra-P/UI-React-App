@@ -19,6 +19,7 @@ import SkOffers from './sk_offfers';
 import SkAddOffers from './sk_addoffers';
 import SkOfferSetup from './sk_offersetup';
 import SkHelp from './sk_help';
+import SkEditFBT from './sk_editfbt';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
