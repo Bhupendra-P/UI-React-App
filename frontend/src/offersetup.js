@@ -105,7 +105,7 @@ function OfferSetup() {
                 </Layout>
                 <Layout>
                     <Layout.Section variant="oneThird">
-                        <BlockStack gap="400">
+                        <BlockStack gap="100">
                             <Text variant="headingMd" as="h6">Offer Products</Text>
                             <Text variant="bodyMd" tone="subdued">Select the products to upsell/cross-sell</Text>
                         </BlockStack>
@@ -129,7 +129,7 @@ function OfferSetup() {
                 </Layout>
                 <Layout>
                     <Layout.Section variant="oneThird">
-                        <BlockStack gap="400">
+                        <BlockStack gap="100">
                             <Text variant="headingMd" as="h6">Discount</Text>
                             <Text variant="bodyMd" tone="subdued">Setup bundle discount for product page upsell</Text>
                         </BlockStack>

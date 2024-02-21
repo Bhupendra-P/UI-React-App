@@ -6,14 +6,14 @@ function SkOfferSetup() {
         <Page fullWidth
             backAction={{ content: 'Settings', url: '#' }}
             title="Offer Setup"
-            primaryAction={{ content: 'Save', variant: "primary", tone: "success" }}
+            primaryAction={{ content: 'Save', variant: "primary", tone: "success", size: "large" }}
         >
             <BlockStack gap="1000">
                 <Layout>
                     <Layout.Section variant="oneThird">
-                        <BlockStack gap={200}>
-                            <SKCard width={90} height={30}></SKCard>
-                            <SKCard width={150} height={0}></SKCard>
+                        <BlockStack gap="100">
+                            <Text variant="headingMd" as="h6">Upsell Type</Text>
+                            <Text variant="bodyMd" tone="subdued">Select an offer</Text>
                         </BlockStack>
                     </Layout.Section>
                     <Layout.Section>
@@ -32,9 +32,9 @@ function SkOfferSetup() {
                 <Layout>
 
                     <Layout.Section variant="oneThird">
-                        <BlockStack gap={200}>
-                            <SKCard width={90} height={30}></SKCard>
-                            <SKCard width={150} height={0}></SKCard>
+                        <BlockStack gap="100">
+                            <Text variant="headingMd" as="h6">Trigger</Text>
+                            <Text variant="bodyMd" tone="subdued">Select the products that triggers the offer</Text>
                         </BlockStack>
                     </Layout.Section>
                     <Layout.Section>
@@ -52,9 +52,9 @@ function SkOfferSetup() {
                 <Layout>
 
                     <Layout.Section variant="oneThird">
-                        <BlockStack gap={200}>
-                            <SKCard width={90} height={30}></SKCard>
-                            <SKCard width={150} height={0}></SKCard>
+                        <BlockStack gap="100">
+                            <Text variant="headingMd" as="h6">Offer Products</Text>
+                            <Text variant="bodyMd" tone="subdued">Select the products to upsell/cross-sell</Text>
                         </BlockStack>
                     </Layout.Section>
                     <Layout.Section>
@@ -71,9 +71,9 @@ function SkOfferSetup() {
                 <Layout>
 
                     <Layout.Section variant="oneThird">
-                        <BlockStack gap={200}>
-                            <SKCard width={90} height={30}></SKCard>
-                            <SKCard width={150} height={0}></SKCard>
+                        <BlockStack gap="100">
+                            <Text variant="headingMd" as="h6">Discount</Text>
+                            <Text variant="bodyMd" tone="subdued">Setup bundle discount for product page upsell</Text>
                         </BlockStack>
                     </Layout.Section>
                     <Layout.Section>
